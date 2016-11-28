@@ -1,6 +1,6 @@
 ﻿## Interface: 70000
 ## Title: |cff00FF55skada单位修改|r
-## Notes: 让skada的单位显示为"W"(万)"E"(亿)w
+## Notes: 让skada的单位显示为"W"(万)"E"(亿)
 ## Dependencies: skada
 
 ##skada单位更改
