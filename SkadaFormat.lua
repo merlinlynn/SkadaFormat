@@ -2,12 +2,12 @@ function SkadaFormatNumber(self,number)
     if number then
         if self.db.profile.numberformat == 1 then
             if number > 100000000 then -- 亿
-                return ("%02.2f亿"):format(number / 100000000)
+                return ("%02.2fE"):format(number / 100000000)
             end
             if number > 100000 then    -- 十万
-                return ("%.1f万"):format(number / 10000)
+                return ("%.1fW"):format(number / 10000)
             end
-            return ("%02.2f万"):format(number / 10000)
+            return ("%02.2fW"):format(number / 10000)
         else
             return math.floor(number)
         end
